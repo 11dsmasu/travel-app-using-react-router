@@ -1,0 +1,65 @@
+header{
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background-image: url("./pics/head.jpg");
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-section{
+  
+  background-size: 100%s;
+}
+
+/* .record-card{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVXmwbklzXF_bGFPwuNjtoTvR8DgJOIxoi0g&usqp=CAU");
+  background-size: 150%;
+} */
+
+.place-card{
+  background-color: palegoldenrod;
+  justify-content: center;
+  padding: 50px; 
+  height: 70px;
+  width: 70px;
+  margin: 20px; 
+  border-radius: 50% / 10%; 
+  /* text-indent: .1em; */
+  border: 4px solid black;
+  display: flex;
+  float: left; 
+}
+
+.place-full{
+  background-color: palegreen;
+  padding: 50px;
+  position: relative; 
+  height: 200px;
+  width: 400px;
+  margin: 20px; 
+  border-radius: 50% / 10%; 
+  text-indent: .1em;
+}
+
+.form-area{
+  border: 4px solid black;
+  background-color: palegoldenrod;
+}
+
+div{
+  color: cadetblue;
+}
+
+h2,h3{
+  text-align: center;
+}
+
